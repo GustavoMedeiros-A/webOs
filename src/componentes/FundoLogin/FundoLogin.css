@@ -1,0 +1,53 @@
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 945px;
+	width: 945px;
+	background: #FFF;	
+	top: -95px;
+	right: 200px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 320px;
+	width: 420px;
+	background: #6C63AC;	
+	top: -210px;
+	right: -50px;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 590px;
+	width: 250px;
+	background: linear-gradient(270deg, #5D54A4, #6A679E);
+	top: 140px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 750px;
+	width: 200px;
+	background: #7E7BB9;	
+	top: 570px;
+	right: 180px;	
+	border-radius: 60px;
+}

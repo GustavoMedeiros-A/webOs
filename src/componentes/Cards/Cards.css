@@ -1,0 +1,53 @@
+
+
+.cards{
+    margin: 30px;
+    margin-top: 10px;
+    /* background-color: #cd5555; */
+    border: 2px solid #000;
+    /* height: calc(100vh - 130px); */
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+    overflow-y: auto;
+
+    -webkit-box-shadow: 6px 6px 12px 1px rgb(255 255 255 / 62%);
+    box-shadow: 6px 6px 12px 1px rgb(255 255 255 / 62%);
+
+    scrollbar-color: dark;
+
+}
+
+.cards header{
+
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: var(--cor-board);
+}
+
+.cards h1{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    transition: all 0.4s;
+}
+
+.cards h1.small {
+    padding: 10px;
+    font-size: 0.9em;
+    transition: all 0.4s;
+  }
+
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: var(--corButton);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--cor-board);
+    border-radius: 20px;
+    border: 3px solid var(--corButton);
+  }

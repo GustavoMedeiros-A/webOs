@@ -1,0 +1,26 @@
+
+
+.board {
+  /* background-color: rgb(67, 63, 63); */
+  background-color: var(--cor-board);
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 6rem 1fr 5rem;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";  
+
+  max-width: 600px;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  color: #fff;
+
+  font-size: 1.6rem;
+
+}
+
+

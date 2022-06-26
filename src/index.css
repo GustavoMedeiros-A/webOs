@@ -1,0 +1,35 @@
+:root{
+
+  --cor-board: #1D1B1B;
+  --cor-board2: #dbabab;
+  --cor-header: #000;
+  --cor-Fab: #F0B357;
+  --cor-card: #F1F2F2;  
+    --corButton: #F0B357;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Comic Sans MS"; */
+}
+
+
+html, body{
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #c0c0c0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

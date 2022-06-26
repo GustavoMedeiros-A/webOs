@@ -1,0 +1,71 @@
+
+.formGroup{    
+    position: relative;
+    padding: 20px 0 0 ;
+    margin: 1.5rem;
+    margin-top: 15px;    
+    width: calc(100% - 3rem);
+    color:#000;
+}
+
+.formField{
+    width:80%;
+    border: 0;
+    cursor: text;
+    letter-spacing: 0.3rem;
+    border-bottom: 2px solid #000;
+    outline: 0;
+    font-size: 1.6rem;
+    color: rgb(130, 127, 127);
+    padding: 7px 0;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.formField:focus, .formField:valid{
+/* color: transparent; */
+border-bottom: 4px solid #000;
+}
+
+.formLabel{
+    position: absolute;
+    left: 1px;
+    bottom: 10px;
+    color: #000;
+    font-size: 1.7rem;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .formField:focus ~ .formLabel,
+.formField:valid ~ .formLabel
+{
+    transform: translateY(-30px)
+
+} */
+
+.formField::placeholder{
+    color:transparent;
+  }
+
+.formField:required:invalid + label{
+    color: red;
+  }
+.formField:focus:required:invalid{
+    border-bottom: 2px solid red;
+  }
+.formField:required:invalid + label:before{
+    content: '*';
+  }
+.formField:focus + label,
+.formField:not(:placeholder-shown) + label{
+    transform: translateY(-30px)
+    /* font-size: 1.7rem;
+    top:0;
+    color: #fff; */
+    /* margin-top: 0; */
+  }
+
+  select option {
+    background: rgba(0, 0, 0, 0.3);
+  }
+

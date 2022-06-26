@@ -1,0 +1,14 @@
+.lista-os{
+
+    -webkit-box-shadow: 6px 6px 12px 1px rgb(255 255 255 / 62%);
+    box-shadow: 6px 6px 12px 1px rgb(255 255 255 / 62%);
+
+    margin: 15px;
+    padding: 10px;
+
+}
+
+
+#button {
+    margin-left: 10%;
+}

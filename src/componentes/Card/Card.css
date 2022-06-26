@@ -1,0 +1,107 @@
+.card {
+    background-color: #fff;
+    display: flex;
+    padding: 6px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 0;
+    margin: 1.5rem;
+    background: var(--cor-card);
+    color: #AD4328;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card .data{
+    /* flex-grow: 1; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    padding: 1rem;
+}
+
+.long-and-truncated {    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+.card .niver{    
+    
+    padding-top: 1.5rem;
+    font-size: 0.9rem
+}
+
+.card .niver span:nth-child(2){    
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.card .image{
+    flex-shrink: 1;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card img{
+    height: 8rem;
+}
+
+
+.card{
+    background-color: #fff;
+    display: flex;
+    padding: 6px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.card div:nth-child(1){
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card .cardTitle{
+    flex-grow: 1;
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.card span{
+    color: #000;    
+}
+
+.fechar-os {
+
+  background-color: rgba(240, 9, 9, 0.403);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
